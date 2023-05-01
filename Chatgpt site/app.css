@@ -1,0 +1,116 @@
+/* Set up the background and text colors */
+body {
+  background-color: #a33c3c;
+  color: #333333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  text-align: left;
+}
+
+/* Style the banner at the top of the page */
+.banner {
+  background-color: #1A1A1A;
+  color: #FFFFFF;
+  padding: 30px;
+  text-align: left;
+  font-family: Arial;
+}
+
+/* Style the navigation links */
+nav {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #CCCCCC;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 10px 20px;
+  color: #333333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #333333;
+  color: #FFFFFF;
+}
+
+/* Style the login and create account sections */
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 60px;
+}
+
+/* Style the login and create account sections */
+.create-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 60px;
+  float:right;
+}
+
+.login {
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  padding: 20px;
+  margin: 10px;
+  flex: 1 1 400px;
+  max-width: 400px;
+}
+
+.login h2, .create-account h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.create-account {
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  padding: 20px;
+  margin: 10px;
+  flex: 1 1 400px;
+  max-width: 400px;
+}
+
+.create-account h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+/* Style the contact button */
+.contact-section {
+  background-color: #FFFFFF;
+  border-top: 1px solid #CCCCCC;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-section button {
+  background-color: #1A1A1A;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-section button:hover {
+  background-color: #333333;
+}
